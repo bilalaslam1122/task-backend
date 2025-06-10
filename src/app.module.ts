@@ -9,7 +9,7 @@ import { TaskModule } from './task/task.module';
 @Module({
   imports: [
     ConfigModule.forRoot({
-      isGlobal: true, // makes config available everywhere
+      isGlobal: true,
     }),
     GraphQLModule.forRoot<ApolloDriverConfig>({
       driver: ApolloDriver,
