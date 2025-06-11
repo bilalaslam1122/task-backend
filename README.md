@@ -14,7 +14,7 @@ A GraphQL-based Task Management API built with NestJS, PostgreSQL, and TypeORM.
 
 - Node.js (v14 or higher)
 - PostgreSQL
-- npm or yarn
+- pnpm or npm
 
 ## Installation
 
