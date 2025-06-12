@@ -29,7 +29,7 @@ import { TaskModule } from './task/task.module';
         database: config.get<string>('DATABASE_NAME'),
         autoLoadEntities: true,
         synchronize: true,
-        ssl: true,
+        ssl: false,
       }),
     }),
     TaskModule,
